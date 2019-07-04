@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Triangle {
+	public static void main(java.lang.String[] args) {
+		
+		Scanner pl = new Scanner(System.in);
+		System.out.print("Введите сторону A: ");
+		int a = pl.nextInt();
+		System.out.print("Введите сторону B: ");
+		int b = pl.nextInt();
+		System.out.print("Введите сторону C: ");
+		int c = pl.nextInt();
+		double pp = (a+b+c)/2;
+		double ploshad = Math.sqrt(pp*(pp-a)*(pp-b)*(pp-c));
+		System.out.print("Площадь треугольника равна = " + ploshad);
+	}
+}
