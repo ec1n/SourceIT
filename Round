@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Round {
+
+	public static void main(java.lang.String[] args) {
+		
+		Scanner rd = new Scanner(System.in);
+		System.out.print("Введите радиус окружности: ");
+		int radius = rd.nextInt();
+		double dlina = 2*Math.PI*radius;
+		System.out.print("Длина окружности = " + dlina);
+	}
+
+}
